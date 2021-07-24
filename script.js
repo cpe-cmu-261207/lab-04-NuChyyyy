@@ -17,8 +17,8 @@ const loadStorage = () => {
         const deleteBtn = document.createElement("button")
 
         oldlist.setAttribute("class", "max-w-screen-sm flex mx-auto px-4 rounded-xl mt-2 fontList")
-        doneBtn.setAttribute("class", "bg-green-500 text-white transform hover:text-black hover:scale-125 transition duration-300 rounded-lg ml-4 p-2 fontBtn")
-        deleteBtn.setAttribute("class", "bg-red-500 text-white transform hover:text-black hover:scale-125 transition duration-300 rounded-lg ml-4 p-2 fontBtn")
+        doneBtn.setAttribute("class", "bg-green-500 text-white transform hover:text-black hover:scale-125 transition delay-200 duration-300 rounded-lg ml-4 p-2 fontBtn")
+        deleteBtn.setAttribute("class", "bg-red-500 text-white transform hover:text-black hover:scale-125 transition delay-200 duration-300 rounded-lg ml-4 p-2 fontBtn")
 
         doneBtn.style.visibility = "hidden"
         deleteBtn.style.visibility = "hidden"
@@ -95,8 +95,8 @@ const addList = () => {
         deleteBtn.style.visibility = "hidden"
 
         list.setAttribute("class", "max-w-screen-sm flex mx-auto px-4 rounded-xl mt-2 fontList")
-        doneBtn.setAttribute("class", "bg-green-500 text-white transform hover:text-black hover:scale-125 transition duration-300 rounded-lg ml-4 p-2 fontBtn")
-        deleteBtn.setAttribute("class", "bg-red-500 text-white transform hover:text-black hover:scale-125 transition duration-300 rounded-lg ml-4 p-2 fontBtn")
+        doneBtn.setAttribute("class", "bg-green-500 text-white transform hover:text-black hover:scale-125 transition delay-200 duration-300 rounded-lg ml-4 p-2 fontBtn")
+        deleteBtn.setAttribute("class", "bg-red-500 text-white transform hover:text-black hover:scale-125 transition delay-200 duration-300 rounded-lg ml-4 p-2 fontBtn")
 
         detail.innerHTML = "❤  " + input + " "
         doneBtn.innerHTML = "Done"
