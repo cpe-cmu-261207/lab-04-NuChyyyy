@@ -12,11 +12,27 @@
 
 .fontHead {
     font-family: 'Rozha One', serif;
-    color: rgb(78, 74, 74);
+    color: rgb(255, 255, 255);
     font-size: 50px;
 }
 
 .bgPaper{
     background-image: url(./image/paper.jpg);
     background-position: center;
+}
+
+.bg-list {
+    background-color: rgba(233, 215, 205, 0.8);
+}
+
+.bg-done {
+    background-color: rgba(204, 177, 151, 0.7);
+}
+
+.bg-brown {
+    background-color: rgb(173, 121, 102);
+}
+
+.bg-brown2 {
+    background-color: rgb(223, 197, 181);
 }
