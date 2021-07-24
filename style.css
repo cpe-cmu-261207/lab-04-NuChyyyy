@@ -1,0 +1,22 @@
+.fontList {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(71, 68, 68);
+    font-size: 30px;
+}
+
+.fontBtn {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.fontHead {
+    font-family: 'Rozha One', serif;
+    color: rgb(78, 74, 74);
+    font-size: 50px;
+}
+
+.bgPaper{
+    background-image: url(./image/paper.jpg);
+    background-position: center;
+}
